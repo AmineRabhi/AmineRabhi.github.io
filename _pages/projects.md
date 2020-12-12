@@ -7,6 +7,9 @@ header:
   image: "/images/index2.jpg"
 ---
 
+### Gale-Shapley stable marriage problem revisited
+November 2020
+A game theory [report](https://github.com/AmineRabhi/Gale-Shapley-revisited) based on Teo, Sethuraman and Tan's [paper](http://www.columbia.edu/~js1353/pubs/tst-ms01.pdf), and made with Clément Antoire, Mohamed Mimouna and Léo Guillon.
 
 ### EfficientNet for object detection
 June 2020  
