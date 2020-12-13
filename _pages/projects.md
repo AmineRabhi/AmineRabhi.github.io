@@ -12,7 +12,7 @@ September 2020 - December 2020 \\
 A [repport](https://github.com/AmineRabhi/AmineRabhi.github.io/raw/master/EA_Repport_English.pdf) focusing on a mean-field game approach to Bitcoin mining, and based on Bertucci et. al. 's [paper](https://arxiv.org/abs/2004.08167).
 
 ### Gale-Shapley stable marriage problem revisited
-October 2020 - November 2020
+October 2020 - November 2020 \\
 A game theory [report](https://github.com/AmineRabhi/Gale-Shapley-revisited) based on Teo, Sethuraman and Tan's [paper](http://www.columbia.edu/~js1353/pubs/tst-ms01.pdf), and made with Clément Antoire, Mohamed Mimouna and Léo Guillon.
 
 ### EfficientNet for object detection
