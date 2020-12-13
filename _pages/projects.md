@@ -9,7 +9,7 @@ header:
 
 ### When to invest? Entry-exit market equilibria
 September 2020 - December 2020 \\
-A [repport](https://github.com/AmineRabhi/AmineRabhi.github.io/raw/master/EA_Repport_English.pdf) under the superviosion of Charles Bertucci, focusing on a mean-field game approach to Bitcoin mining and based on Bertucci et. al. 's [paper](https://arxiv.org/abs/2004.08167)
+A [repport](https://github.com/AmineRabhi/AmineRabhi.github.io/raw/master/EA_Repport_English.pdf) under the superviosion of Charles Bertucci, focusing on a mean-field game approach to Bitcoin mining and based on Bertucci et. al. 's [paper](https://arxiv.org/abs/2004.08167).
 
 ### Gale-Shapley stable marriage problem revisited
 October 2020 - November 2020 \\
