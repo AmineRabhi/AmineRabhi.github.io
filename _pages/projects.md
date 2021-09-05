@@ -7,9 +7,13 @@ header:
   image: "/images/index2.jpg"
 ---
 
+### On epidemiological models and their tropical approximation
+December 2020 - April 2021 \\
+A [report](https://github.com/AmineRabhi/AmineRabhi.github.io/blob/master/EA2_Rapport%20(3).pdf) under the supervision of Stéphane Gaubert, focusing on the tropical modelisation of the SEIR model in the case of the COVID-19 epidemic.
+
 ### When to invest? Entry-exit market equilibria
 September 2020 - December 2020 \\
-A [report](https://github.com/AmineRabhi/AmineRabhi.github.io/raw/master/EA_Repport_English.pdf) under the superviosion of Charles Bertucci, focusing on a mean-field game approach to Bitcoin mining and based on Bertucci et. al. 's [paper](https://arxiv.org/abs/2004.08167).
+A [report](https://github.com/AmineRabhi/AmineRabhi.github.io/raw/master/EA_Repport_English.pdf) under the supervision of Charles Bertucci, focusing on a mean-field game approach to Bitcoin mining and based on Bertucci et. al. 's [paper](https://arxiv.org/abs/2004.08167).
 
 ### Gale-Shapley stable marriage problem revisited
 October 2020 - November 2020 \\
