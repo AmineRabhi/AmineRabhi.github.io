@@ -1,0 +1,170 @@
+%-------------------------
+% CV – Mohamed Amine RABHI
+% Style: original Overleaf formatting preserved
+%-------------------------
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting – rule under heading
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+%-------------------------
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape Mohamed Amine RABHI} \\ \vspace{4pt}
+    \small +33 7 69 22 52 42 $|$
+    \href{mailto:mohamed.rabhi@polytechnique.edu}{\underline{mohamed.rabhi@polytechnique.edu}} $|$
+    \href{https://linkedin.com/in/amine98}{\underline{linkedin.com/in/amine98}} $|$
+    \href{https://aminerabhi.github.io}{\underline{aminerabhi.github.io}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Equity Volatility Trader}{July 2022 -- Present}
+      {Point72 Asset Management -- Macro Fund}{London, UK}
+      \resumeItemListStart
+        \resumeItem{Joined a two-person macro team with direct exposure to all aspects of portfolio management and decision-making.}
+        \resumeItem{Built the fund's equity volatility infrastructure from the ground up, covering index vol across US, European and Asian markets.}
+        \resumeItem{Developed systematic and semi-systematic trading strategies and signals; responsible for execution, monitoring and ongoing refinement.}
+        \resumeItem{Managed options book risk, including delta, gamma and vega exposures, as well as overall portfolio-level risk oversight.}
+        \resumeItem{Collaborated with the PM on constructing a macro framework for equities, developing intuition for cross-asset drivers and market regime dynamics.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Quantitative Researcher (Intern \& Part-time)}{March 2021 -- June 2022}
+      {Squarepoint Capital -- Credit Team}{Paris / London}
+      \resumeItemListStart
+        \resumeItem{Calibrated the volatility parameter on the Hull-White interest rate model.}
+        \resumeItem{Contributed to Credit Team infrastructure and production set-up.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {MVA -- ENS Paris-Saclay}{Saclay, FR}
+      {Master of Machine Learning, Deep Learning and Computational Mathematics}{Oct 2021 -- Apr 2022}
+
+    \resumeSubheading
+      {Ecole Polytechnique}{Palaiseau, FR}
+      {Master of Science in Applied Mathematics, Computer Science and Economics}{Aug 2018 -- May 2021}
+
+    \resumeSubheading
+      {Lyc\'ee Sainte Genevi\`eve}{Versailles, FR}
+      {Two-year intensive preparatory class in Mathematics, Physics and Computer Science}{Aug 2016 -- May 2018}
+
+  \resumeSubHeadingListEnd
+
+%-----------ACADEMIC PROJECTS-----------
+\section{Academic Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Covid-19 Epidemiological Models with Mobility} $|$ \emph{Supervised by St\'ephane Gaubert}}{Jan 2021 -- Mar 2021}
+          \resumeItemListStart
+            \resumeItem{Developed epidemiological models based on discrete-time SEIR and transport PDE models incorporating mobility.}
+            \resumeItem{Built dynamic models to explain the spatial phylogenesis of the epidemic in transitional regimes.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Mean-Field Game Approach to Bitcoin Mining} $|$ \emph{Python: NumPy}}{Sep 2020 -- Dec 2020}
+          \resumeItemListStart
+            \resumeItem{Research under supervision of Charles Bertucci, based on his paper on mean-field games and mining.}
+            \resumeItem{Developed numerical methods to solve Hamilton-Jacobi equations in multiple dimensions with several constraints.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Credit Scoring with BNP Paribas} $|$ \emph{Python: NumPy, pandas, scikit-learn, PyTorch}}{Sep 2019 -- Apr 2020}
+          \resumeItemListStart
+            \resumeItem{Analyzed the impact of macroeconomic factors on probability of default for credit scoring.}
+            \resumeItem{Developed forecasting models using Random Forests and Deep Neural Networks on real-world data.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS & ACHIEVEMENTS-----------
+\section{Skills \& Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: French (fluent), Arabic (fluent), English (fluent), Spanish (basic), Russian (basic)} \\
+     \textbf{Programming}{: Python, Java, CamL, C++, KDB+} \\
+     \textbf{Achievements}{: First prize at the Academic Mathematics Olympiad in Morocco $|$ Excellence Major Scholarship recipient}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
